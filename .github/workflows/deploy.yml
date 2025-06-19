@@ -20,6 +20,6 @@ jobs:
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v3
       with:
-        app-name: 'uce-accounting-rag'
+        app-name: 'uce-accounting-rag-api'
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
         package: . 
