@@ -3,7 +3,7 @@ import requests
 import os
 
 # API地址，指向后端公网地址
-API_BASE_URL = "https://uce-accounting-rag-api-augfh9bacgb7gjcy.canadacentral-01.azurewebsites.net/api"
+API_BASE_URL = "https://uce-accounting-rag-bpadevgmg4bkbqeg.canadaeast-01.azurewebsites.net/api"
 
 st.set_page_config(
     page_title="RAG应收帐系统",
